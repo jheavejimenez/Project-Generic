@@ -42,6 +42,8 @@ X_FRAME_OPTIONS = 'SAMEORIGIN'
 # Application definition
 
 INSTALLED_APPS = [
+    'atmosMed',
+
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
