@@ -4,4 +4,6 @@ from . import views
 
 app_name = 'atmosMed'
 
-urlpatterns = []
+urlpatterns = [
+    path('', views.DashboardView.as_view(), name='dashboard'),
+]
