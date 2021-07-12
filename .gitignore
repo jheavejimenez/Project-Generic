@@ -4,5 +4,5 @@ env/
 .idea/
 .DS_Store
 media/
-./static/
+atmosMed/static/
 lampara_env/

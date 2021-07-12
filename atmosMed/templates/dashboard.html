@@ -1,0 +1,75 @@
+{% load static  %}
+
+<html lang="en" class="text-gray-900 leading-tight">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+</head>
+ <body class="min-h-screen bg-gray-100">
+    <div class="overflow-x-auto">
+         <div class="bg-gray-100 flex items-center justify-center bg-gray-100 font-sans overflow-hidden">
+             <div class="w-full lg:w-5/6">
+                 <div class="bg-white shadow-md rounded my-6">
+                     <table class="min-w-max w-full table-auto">
+                         <thead>
+                             <tr class="bg-blue-800 text-white uppercase text-sm leading-normal">
+                                 <th class="py-3 px-6 text-center">Generic Name</th>
+                                 <th class="py-3 px-6 text-center">Brand</th>
+                                 <th class="py-3 px-6 text-center">Price</th>
+                                 <th class="py-3 px-6 text-center">Dosage Strength</th>
+                             </tr>
+                         </thead>
+                         <tbody class="text-gray-600 text-sm font-light">
+                             <tr class="border-gray-200 hover:bg-gray-100">
+                                 <td class="bg-blue-600 text-white py-3 px-6 text-center">
+                                     <div class="flex items-center justify-center">
+                                        <span class="font-medium">Paracetamol</span>
+                                     </div>
+                                 </td>
+                                 <td class="py-3 px-6 text-center">
+                                     <div class="flex items-center justify-center">
+                                        <span class="font-medium">Biogesic</span>
+                                     </div>
+                                 </td>
+                                 <td class="py-3 px-6 text-center">
+                                     <div class="flex items-center justify-center">
+                                         <span class="font-medium">8.00</span>
+                                     </div>
+                                 </td>
+                                 <td class="py-3 px-6 text-center">
+                                     <div class="flex items-center justify-center">
+                                        <span class="font-medium">200mg</span>
+                                     </div>
+                                 </td>
+                             </tr>
+                             <tr class="border-gray-200 hover:bg-gray-100">
+                                 <td class="bg-blue-600 text-white py-3 px-6 text-center">
+                                     <div class="flex items-center justify-center">
+                                        <span class="font-medium">Paracetamol</span>
+                                     </div>
+                                 </td>
+                                 <td class="py-3 px-6 text-center">
+                                     <div class="flex items-center justify-center">
+                                        <span class="font-medium">Ranigesic</span>
+                                     </div>
+                                 </td>
+                                 <td class="py-3 px-6 text-center">
+                                     <div class="flex items-center justify-center">
+                                         <span class="font-medium">3.00</span>
+                                     </div>
+                                 </td>
+                                 <td class="py-3 px-6 text-center">
+                                     <div class="flex items-center justify-center">
+                                        <span class="font-medium">200mg</span>
+                                     </div>
+                                 </td>
+                             </tr>
+                         </tbody>
+                     </table>
+                 </div>
+             </div>
+         </div>
+    </div>
+  </body>
+</html>
