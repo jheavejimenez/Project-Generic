@@ -88,7 +88,7 @@ WSGI_APPLICATION = 'projectGeneric.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'djongo',
-        'NAME': 'atmosMed',
+        'NAME': 'projectGeneric',
         # 'CLIENT': {
         #    'host': 'your-db-host',
         # }
